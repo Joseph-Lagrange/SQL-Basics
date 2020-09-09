@@ -126,7 +126,7 @@
 	Id_P int,
 	PRIMARY KEY (Id_O),
 	FOREIGN KEY (Id_P) REFERENCES Persons(Id_P),
-	CHECK (Id_0 0)
+	CHECK (Id_P>0)
 	)
 
 -- SQL Create Index
